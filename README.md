@@ -5,6 +5,9 @@ then that container is no longer useful to us. This kind of situation can occur,
 it is recommended to restart the container to make the application available. Rather than restarting it manually, we can use a Liveness Probe. 
 Liveness probe checks on an application's health, and if the health check fails, kubelet restarts the affected container automatically.
 Liveness Probes can be set by defining:
-○ Liveness command
+
+○ Liveness command (For example you can see the livenessCommand.yml file)
+
 ○ Liveness HTTP request
+
 ○ TCP Liveness probe.
